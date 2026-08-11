@@ -166,3 +166,8 @@ exclude:
     "node_modules",
     "vendor",
   ]
+
+# Jekyll skips directories starting with a dot, so .well-known would never be published
+# without this. It holds the Apple App Site Association file that lets iOS hand Meta's
+# glasses-approval callback to a personal OpenGlasses build instead of opening Safari.
+include: [".well-known"]

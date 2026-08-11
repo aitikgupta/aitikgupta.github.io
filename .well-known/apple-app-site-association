@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "X9S5PB664V.com.openglasses.app",
+        "paths": ["/openglasses/*"]
+      }
+    ]
+  }
+}
